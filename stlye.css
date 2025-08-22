@@ -1,0 +1,49 @@
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ .table1,
+ table th,
+ td {
+   border: 1px solid black;
+   border-collapse: collapse;
+   vertical-align: middle;
+
+ }
+
+ .container {
+   padding: 20px;
+   display: flex;
+   justify-content: flex-end;
+   background-color: rgba(255, 164, 223, 0.631);
+
+ }
+
+ .head1 {
+   background-color: #ffa4dfa1;
+
+   text-align: center;
+ }
+
+ .button1 {
+   font-size: 50px;
+   border-radius: 10px;
+
+ }
+
+ .button1:hover {
+   background-color: pink;
+ }
+
+ .table1 th:hover,
+ .table1 td:hover {
+
+   background-color: rgb(255, 146, 240);
+ }
+
+ .kessuko {
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 5px;
+ }
