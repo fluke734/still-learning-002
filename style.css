@@ -1,4 +1,4 @@
- * {
+* {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -47,3 +47,8 @@
    border: 2px solid rgb(0, 0, 0);
    border-radius: 5px;
  }
+ fixed-size-img {
+  width: 100%;       /* กว้างเต็มภาชนะที่ใส่ */
+  height: 300px;     /* บังคับความสูง */
+  object-fit: cover; /* ตัดส่วนเกินออก (เหมือนการ Crop) เพื่อให้รูปไม่เบี้ยว */
+}
