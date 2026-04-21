@@ -47,8 +47,18 @@
    border: 2px solid rgb(0, 0, 0);
    border-radius: 5px;
  }
- fixed-size-img {
-  width: 100%;       /* กว้างเต็มภาชนะที่ใส่ */
-  height: 300px;     /* บังคับความสูง */
-  object-fit: cover; /* ตัดส่วนเกินออก (เหมือนการ Crop) เพื่อให้รูปไม่เบี้ยว */
-}
+.bocchi {
+  width: 300px;
+  height: 700px;
+  
+ }
+   @media (max-width: 768px) {
+            .nav-menu {
+                flex-direction: column;
+                align-items: center;
+                gap: 0;
+            }
+        }
+.b1{
+    font-display: swap;
+        }
