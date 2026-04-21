@@ -91,6 +91,12 @@ table {
 
 body {
   margin: 0;
+   
   padding: 10px;
   text-align: center;
+}
+.kessuko {
+
+    max-width: 100%;
+  height: auto;
 }
